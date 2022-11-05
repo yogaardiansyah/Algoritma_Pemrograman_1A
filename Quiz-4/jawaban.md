@@ -124,44 +124,83 @@ Algoritma
 PseudoCode
 
 1.Start
+
 2. cls
+
 3. A = Bilangan_Pertama
+
 4. B = Bilangan_Kedua
+
 5. C = Bilangan Ketiga
+
 6. A,B,C = Int
+
 7.Rata_Rata = Float
+
 8. Input A
+
 9. Input B
+
 10. Input C
+
 11. Rata_Rata=(A+B+C)/ 3
+
 12.if A>B and A>C then
+
 13.if B>C then
+
 14.Print "Terbesar A"
+
 15.Print "Terkecil C"
+
 16.else
+
 17.Print "Terbesar A"
+
 18.Print "Terkecil B."
+
 19.end if
+
 20.else
+
 21.if A>B and A<C then
+
 22.Print "Terbesar C"
+
 23.Print "Terkecil B"
+
 24.else
+
 25.if A<B and A>C then
+
 26.Print "Terbesar B"
+
 27.Print "Terkecil C"
+
 28.else
+
 29.if B>C then
+
 30.Print "Terbesar B"
+
 31.Print "Terkecil A"
+
 32.else
+
 33.Print "Terbesar C"
+
 34.Print "Terkecil A"
+
 35.end if
+
 36.end if
+
 37.end if
+
 38.end if
+
 39.Print "Rata_Rata"
+
 40.End
 
 FlowChart :
