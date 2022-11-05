@@ -15,17 +15,17 @@ statement ) mulai dari atas ke bawah dan dari kiri
 ke kanan.
 • Top-down
 
+
 #Konversi celcius ke kelvin
 def kelvin(celcius):
     kelvin = celcius + 273
-
     return kelvin
-
+    
 #function utama untuk menu utama
 def main():
     print("===========Konversi Suhu============")
     suhu = int(input("Masukan Suhu Celcius : "))
-
+    
     #cetak hasil
     print("...................................................")	
     print("Hasil Konversi Suhu", suhu, "C ke Kelvin adalah", kelvin(suhu), "K")
