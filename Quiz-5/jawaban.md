@@ -15,12 +15,12 @@ statement ) mulai dari atas ke bawah dan dari kiri
 ke kanan.
 • Top-down
 
-
+```
 #Konversi celcius ke kelvin
 def kelvin(celcius):
     kelvin = celcius + 273
     return kelvin
-    
+       
 #function utama untuk menu utama
 def main():
     print("===========Konversi Suhu============")
@@ -32,7 +32,7 @@ def main():
 
 #menjalankan program
 main()
-
+```
 Urutan pengerjaan adalah mulai dari urutan pertama sampai dengan urutan terakhir
 jika suhu diisi dengan 20, maka jumlah yang tercetak adalah 293  
 
@@ -43,14 +43,14 @@ sebuah kondisi dan pilihan diantara dua aksi.
 • Statement Pertama akan dikerjakan jika kondisi
 bernilai benar, jika tidak maka akan mengerjakan
 perintah setelah keyword “else” (jika ada).
-
+```
 if hasil > gm:
     print("GM")
 elif im <= hasil < gm:
     print("IM")
 else:
     print("Error")
-
+```
 Penjelasan :
 jika variabel hasil lebih besar dari variabel gm
 cetak nilai string "GM" jika variabel hasil lebih kecil dari variabel im
@@ -64,12 +64,12 @@ dengan menggunakan struktur kontrol repetition.
 • Statement / perintah akan tetap diulang selama
 kondisi perulangan memenuhi (jika menggunakan
 DOWHILE – ENDDO)
-
+```
 i = 1
 while i <= 5:
   print(i)
   i += 1
-
+```
 Pertama kali variabel i akan diisi dengan 1, setelah itu isi dari variabel i akan dicetak jika variabel i kurang dari sama dengan 5 
 lalu cetak nilai variabel i lalu variabel i ditambahkan dengan nilai 1
 sehingga tampilannya akan sebagai berikut:   
